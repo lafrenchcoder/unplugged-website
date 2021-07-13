@@ -94,7 +94,79 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
+
+header nav {
+  justify-content: row wrap;
+  flex-flow: row wrap;
+}
+
+header content-wrapper {
+  flex-flow: row wrap;
+}
+
+ /* -------------------- Home Page Styles -------------------- */
+
+ aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+ }
+
+ .contact-section {
+   flex-flow: row wrap;
+ }
+
+.faq {
+  flex-flow: row wrap;
+}
+
+.content-wrapper {
+  flex-flow: row wrap;
+}
+
+ .hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: column;
+ }
+
+ .features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+ }
+
+ .features-items {
+   display: flex;
+   justify-content: center;
+   align-items: column;
+   flex-flow: row wrap;
+ }
+
+ .mission {
+  flex-wrap: row wrap;
+}
+
+ .reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: column;
+  flex-flow: row wrap;
+
+ }
+
+ .article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ }
 
 
 /* ==========================================================================
