@@ -97,6 +97,10 @@ footer {
   flex-flow: row wrap;
 }
 
+header {
+  padding: 15px 0;
+}
+
 .header-divider {
   width: 100%;
 
@@ -114,6 +118,7 @@ header nav ul {
 
 header .content-wrapper {
   flex-flow: row wrap;
+  margin: 0;
 }
 
 footer {
@@ -123,6 +128,10 @@ footer {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+}
+
+footer p {
+  margin: 0;
 }
 
 /* ========================================================================== */
@@ -175,6 +184,10 @@ footer .content-wrapper {
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
+ }
+
+ .features p {
+   margin: 0;
  }
 
  .mission {
