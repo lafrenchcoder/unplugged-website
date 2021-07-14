@@ -97,13 +97,21 @@ footer {
   flex-flow: row wrap;
 }
 
+
+
 header nav {
   justify-content: row wrap;
   flex-flow: row wrap;
+  width: 60%;
 }
 
-header content-wrapper {
+header .content-wrapper {
   flex-flow: row wrap;
+}
+
+footer .conter-wrapper {
+  width: 55%;
+  margin: 50px 0;
 }
 
  /* -------------------- Home Page Styles -------------------- */
@@ -125,6 +133,9 @@ header content-wrapper {
 
 .content-wrapper {
   flex-flow: row wrap;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
 
  .hero-area {
