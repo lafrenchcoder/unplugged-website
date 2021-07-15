@@ -325,9 +325,8 @@ footer p {
 
     aside .content-wrapper {
       display: flex;
-      justify-content: ;
-      flex-flow: ;
-      width: 83%;
+      justify-content: center;
+      align-items: center;
     }
 
     aside h2 {
@@ -338,14 +337,23 @@ footer p {
 
     .features article {
       display: flex;
-      justify-content: ;
-      align-items: ;
-      flex-flow: ;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 50%
+    }
+
+    .features .features-items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
     }
 
     .reviews article {
       display: flex;
-      justify-content: ;
+      justify-content: flex-end;
+      width: 83%;
 
     }
 
