@@ -305,6 +305,64 @@ footer p {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
+    min-width: 768px;
+
+    header {
+      justify-content: ;
+    }
+
+    header .content-wrapper {
+      justify-content: ;
+
+    }
+
+    header nav ul {
+      justify-content: ;
+
+    }
+
+    aside .content-wrapper {
+      display: flex;
+      justify-content: ;
+      flex-flow: ;
+      width: 83%;
+    }
+
+    aside h2 {
+      width: 83%;
+      align-items: center;
+      margin: 0;
+    }
+
+    .features article {
+      display: flex;
+      justify-content: ;
+      align-items: ;
+      flex-flow: ;
+    }
+
+    .reviews article {
+      display: flex;
+      justify-content: ;
+
+    }
+
+    footer .footer-content {
+      display: flex;
+      justify-content: center;
+      align-items: column;
+    }
+
+    }
+     
+@media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+    min-width: 1200px;
+    
+    }
+
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
 }
