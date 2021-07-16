@@ -103,20 +103,29 @@ header {
 
 .header-divider {
   width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
 
 }
 
 header nav {
-  justify-content: row wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   flex-flow: row wrap;
   width: 60%;
 }
 
 header nav ul {
-  width: 160px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 
 header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
   margin: 0;
 }
@@ -307,26 +316,30 @@ footer p {
 
 @media only screen and (min-width: 768px) {
     /*Tablet styles here*/
-    min-width: 768px;
 
     header {
-      justify-content: ;
+      justify-content: space-around;
+      padding: 33px 0;
     }
 
     header .content-wrapper {
-      justify-content: ;
+      width: 100%;
+      justify-content: space-between;
+    }
 
+    header nav {
+      width: 20%; 
     }
 
     header nav ul {
-      justify-content: ;
+      justify-content: space-between;
 
     }
 
     aside .content-wrapper {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-between;
+      flex-flow: row wrap
     }
 
     aside h2 {
@@ -335,12 +348,16 @@ footer p {
       margin: 0;
     }
 
+    .faq-content {
+      flex-basis: 50%;
+    }
+
     .features article {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-flow: column wrap;
-      flex-basis: 50%
+      flex-basis: 50%;
     }
 
     .features .features-items{
@@ -362,6 +379,31 @@ footer p {
       justify-content: center;
       align-items: column;
     }
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+ 
+   .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;  
+}
+
+.mission-content p {
+    width: 83%;
+}
+
+.contact-section .content-wrapper h2 {
+    width: 83%;
+}
+
+.contact-content {
+    display: flex; 
+    justify-content: space-between;
+    align-items: left; 
+}
+
 
     }
      
