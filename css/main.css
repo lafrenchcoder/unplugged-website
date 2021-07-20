@@ -345,9 +345,11 @@ footer p {
     }
 
     aside .content-wrapper {
+      margin: 50px 0;
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
+      width: 40%;
     }
 
     aside h2 {
@@ -410,6 +412,21 @@ footer p {
     display: flex; 
     justify-content: space-between;
     align-items: left; 
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+   .faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq h2 {
+    width: 100%;
 }
 
 
