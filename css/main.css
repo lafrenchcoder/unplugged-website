@@ -456,7 +456,7 @@ footer p {
 
   /* Hero */
   .hero-area h1 {
-    width: 100%;
+    width: 640px;
   }
 
   /* Aside */
@@ -466,21 +466,21 @@ footer p {
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width:  100%;
+    width:  80%;
   }
 
       /* Features */
       .features h2 {
-        width: 100%;
+        width: 80%;
     }
  
     .features article {
-        flex-basis: 100%;
+        flex-basis: 40%;
     }
  
     /* Reviews */ 
     .reviews article div {
-        width: 100%;
+        width: 40%;
     }
  
 /* ==========================================================================
@@ -488,14 +488,14 @@ footer p {
    ========================================================================== */
     .mission h2,
     .contact-section .content-wrapper h2 {
-        width: 100%;
+        width: 80%;
     }
  
 /* ==========================================================================
    FAQ Page
    ========================================================================== */
     .faq h2 {
-        width: 100%;
+        width: 80%;
     }
 
   }
