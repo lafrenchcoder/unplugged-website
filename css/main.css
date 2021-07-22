@@ -122,8 +122,8 @@ address {
 }
 
 .content-wrapper {
-  font-family: 'Open Sans', sans-serif;
-  color: #e1e2ea;
+  width: 90%;
+  margin: 50px 0;
 }
 
 /*
