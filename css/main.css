@@ -93,16 +93,28 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+  color: #e2e3ed;
+}
+
 h2 {
 font-family: 'Poppins', sans-serif;
+color: #e2e3ed;
 }
 
 h3, h4 {
 font-family: 'Poppins', sans-serif;
+color: #e2e3ed;
+font-size: 1.875em;
+}
+
+p {
+  color: #e2e3ed;
 }
 
 html {
   font-size: 16px;
+  background-color: #202322;
 }
 
 body {
@@ -152,14 +164,6 @@ input[type=button] {
   text-transform: uppercase;
 }
 
-/*
-figure { 
-}
-
-img {}
-*/
-
-
 
  /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -194,6 +198,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  list-style-type: none;
 }
 
 header .content-wrapper {
@@ -216,6 +221,7 @@ footer .content-wrapper {
 
 footer p {
   margin: 0;
+  color: #ffffff;
 }
 
 /* -------------------- Home Page Styles -------------------- */
@@ -225,6 +231,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
  }
 
  .contact-section {
@@ -269,6 +276,7 @@ footer p {
 
  .features p {
    margin: 0;
+   color: #e1e2ea;
  }
 
  .mission {
@@ -282,6 +290,7 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 .reviews h3 {
