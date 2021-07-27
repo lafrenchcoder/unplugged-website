@@ -134,7 +134,7 @@ address {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
   margin: 50px 0;
 }
 
@@ -220,7 +220,7 @@ footer {
 }
 
 footer .content-wrapper {
-  width: 55%;
+  width: 100%;
   margin: 50px 0;
 }
 
@@ -248,7 +248,7 @@ footer p {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
   margin: 50px 0;
 }
 
