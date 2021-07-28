@@ -114,6 +114,7 @@ h3, h4 {
 font-family: 'Poppins', sans-serif;
 color: #e2e3ed;
 font-size: 1.875em;
+margin: 20px 0;
 }
 
 p {
@@ -139,7 +140,7 @@ address {
 }
 
 aside .form {
-  margin-top: 30px;
+  margin-top: 0px;
 }
  
 input[type=text] {
@@ -227,6 +228,12 @@ footer .content-wrapper {
 footer p {
   margin: 0;
   color: #ffffff;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 /* -------------------- Home Page Styles -------------------- */
@@ -433,10 +440,10 @@ footer p {
     }
 
     aside .content-wrapper {
-      margin: 50px 0;
+      margin: 50px 0 50px 0;
       width: 80%;
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
     }
 
     aside .content-wrapper .form .form-description {
@@ -487,7 +494,7 @@ footer p {
 
     footer .footer-content {
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: column;
     }
 
