@@ -555,11 +555,11 @@ footer .copyright {
   /* Aside */
 
   aside .content-wrapper {
-    justify-content: center;
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width:  80%;
+    width:  30%;
   }
 
       /* Features */
