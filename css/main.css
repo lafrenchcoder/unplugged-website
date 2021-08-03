@@ -494,7 +494,7 @@ footer .copyright {
 
     footer .footer-content {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       align-items: column;
     }
 
@@ -575,6 +575,8 @@ footer .copyright {
     .reviews article div {
         width: 40%;
     }
+
+/* Footer */
  
 /* ==========================================================================
    About Page
