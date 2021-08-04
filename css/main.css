@@ -259,11 +259,15 @@ footer .copyright {
   margin: 50px 0;
 }
 
- .hero-area {
+.hero-area {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: row wrap;
+  background-image: url('../img/hero-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
  }
 
 /* -------------------- Features -------------------- */
@@ -272,6 +276,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-image: url('../img/meal-image.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
  }
 
  .features article {
