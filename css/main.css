@@ -142,6 +142,14 @@ address {
 aside .form {
   margin-top: 0px;
 }
+
+img { 
+	width: 100%;
+}
+
+figure {
+  margin: 0;
+}
  
 input[type=text] {
   box-sizing: border-box;
@@ -215,6 +223,13 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
 
 footer {
   flex-direction: column;
@@ -447,6 +462,10 @@ footer .copyright {
       display: none;
     }
 
+    header figure {
+      width: 30%;
+    }
+
     aside .content-wrapper {
       margin: 50px 0 50px 0;
       width: 80%;
@@ -558,6 +577,10 @@ footer .copyright {
   /* Hero */
   .hero-area h1 {
     width: 640px;
+  }
+
+  header figure {
+    width: 30%;
   }
 
   /* Aside */
