@@ -328,6 +328,7 @@ footer .copyright {
   background-color: #2a423a;
 }
 
+
 .reviews h3 {
   width: 65%;
 }
@@ -337,9 +338,11 @@ footer .copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
   width: 66%;
  }
+
+
 
 
 /* ==========================================================================
@@ -512,7 +515,7 @@ footer .copyright {
 
     .reviews article {
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       width: 83%;
 
     }
@@ -570,9 +573,9 @@ footer .copyright {
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
     
-  .content-wrapper {
+/*  .content-wrapper {
     max-width: 960px;
-  }
+  }*/
 
   /* Hero */
   .hero-area h1 {
@@ -590,7 +593,13 @@ footer .copyright {
   }
 
   aside .content-wrapper .form-description, aside .content-wrapper .form {
-    width:  30%;
+    width:  40%;
+  }
+
+  /* Article */
+
+  article img {
+    width:100%;
   }
 
       /* Features */
@@ -604,8 +613,14 @@ footer .copyright {
  
     /* Reviews */ 
     .reviews article div {
-        width: 40%;
+        width: 42%;
     }
+
+    .reviews .content-wrapper{
+      justify-content: space-between;
+      width: 100%;
+    }
+
 
 /* Footer */
  
