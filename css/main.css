@@ -135,7 +135,7 @@ address {
 }
 
 .content-wrapper {
-  width: 100%;
+  width: 90%;
   margin: 50px 0;
 }
 
@@ -516,8 +516,12 @@ footer .copyright {
     .reviews article {
       display: flex;
       justify-content: space-between;
-      width: 83%;
+     /* width: 83%;*/
+    }
 
+    .reviews article figure,
+    .reviews article div {
+      width: 49%;
     }
 
  /* Footer */
